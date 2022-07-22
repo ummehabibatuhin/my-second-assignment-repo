@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(17, 12, 17);
+    background-color:  #4b4646;
 }
 .container-banner{
     width: 85%;
@@ -9,7 +9,7 @@ body{
     margin-bottom: 100px;
 }
 .banner{
-    background-color: bisque;
+    background-color: #161616;
     align-items: flex-end;
     margin-top: 50px;
 
@@ -54,5 +54,76 @@ a{
 .fa-greater-than{
     margin-left: 10px;
 
+}.blog-part{
+   
+}
+.select{   
+    background-color: #161616;
+    width: 300px;
+    height: 300px;  
+    padding-right: 25px;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+ul{
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+    background-color: white; 
+    padding: 17px 50px;
+    margin: 30px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+.select a{
+    color: #161616; 
+    font-weight:600;
+    font-size: 16px;
+}
+ul li:last-child,
+ul li:hover{
+    background-color: #DD0000;
+}
+ul li:last-child a,
+ul li:hover a{
+    color: white;
+}
+.iteam{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+.blog{   
+    width: 280px;
+    height: 352px;
+    box-shadow: 1px 1px 2px #646060;
+    border-radius: 10px;
+}
+.blog-img{
+    width: 280px;
+    height: 175px;
+}
+.blog-img image{
+    width: 100%;
+    height: 100%;
+}
+.blog-icon,
+.blog-detail{
+    margin: 20px;
+}
+.fa-comment-dots,
+.fa-clock{
+    padding-right: 10px;
+}
+.blog-icon small{
+    padding-right: 30px;
 }
 
+.container{   
+    width: 85%;
+    display: flex;    
+    margin: 0 auto;  
+    margin-bottom: 100px;
+}
