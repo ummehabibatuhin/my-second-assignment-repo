@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(17, 12, 17);
 }
-.container{
+.container-banner{
     width: 85%;
     display: flex;
     margin: 0 auto;
@@ -51,7 +51,7 @@ a{
     
 
 }
-.fa-arrow-right{
+.fa-greater-than{
     margin-left: 10px;
 
 }
